@@ -1,0 +1,25 @@
+// @import "bootstrap/scss/functions";
+
+// @import "./utils/header.scss";
+// @import './utils/_components.scss';
+// @import './utils/_base.scss';
+// @import './utils/_variables.scss';
+
+
+// @import "bootstrap/scss/bootstrap"
+
+@import "bootstrap/scss/functions"; // ~bootstrap → 官方的
+
+// c結尾的是從helpers資料夾過來的
+@import './utils/_variables.scss'; // 自己的
+@import "bootstrap/scss/bootstrap";
+@import "./utils/_mixinsc.scss";
+@import "./utils/_base.scss";
+@import "./utils/_utilitiesc.scss";
+@import "./utils/components.scss";
+
+// layout
+@import "./layout/_header.scss";
+@import "./layout/_footer.scss";
+
+@import "./front/index.scss";

@@ -1,0 +1,22 @@
+.footer-bg {
+  background-color: #6c5030;
+  @include max-767 {
+    .logo {
+      max-width: 100%;
+    }
+  }
+}
+
+.nav-link {
+  font-size: 18px;
+  color: $white;
+  padding-right: 20px;
+
+  &:hover {
+    color: rgba($white, $alpha: 0.8);
+  }
+}
+
+a {
+  display: block;
+}
