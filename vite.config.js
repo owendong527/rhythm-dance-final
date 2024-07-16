@@ -15,7 +15,8 @@ const DRIVE_LETTER_REGEX = /^[a-z]:/i;
 export default defineConfig(({ mode }) => {
   loadEnv(mode);
   return ({
-    base: process.env.NODE_ENV === 'production' ? `/${process.env.REPOSITORY_NAME}/` : '/',
+    // base: process.env.NODE_ENV === 'production' ? `/${process.env.REPOSITORY_NAME}/` : '/',
+    base: '/rhythm-dance-final/',
     plugins: [
       vue(),
       eslintPlugin({
@@ -42,6 +43,7 @@ export default defineConfig(({ mode }) => {
           },
         },
       },
+      chunkSizeWarningLimit: 1500,
     },
   });
 });
