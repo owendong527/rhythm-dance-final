@@ -2,12 +2,14 @@
   .kv {
     background-image: url("https://storage.googleapis.com/vue-course-api.appspot.com/owen-hexschool/1720885250830.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=BClVeJRGNZEhlFccDI1NB38MP5sGcxlRHbcWb4BBzFMbnpEsb9ANKdpCQC8Fza6AWnd4B%2F48ikM2wWMnFYCREl6h1Cf9vmTEHHbRVbUvEdv5nYiRmsyUYnmbyHrZQjHESmo797JOatQ4PVTJdPcKkM2kLiP9E6jv%2FLPtwu7ZJKQqH2FIffgDSTZusYQlWamgLdP5ZLMTkSJN6hbbekdvRt2UnkazAcI1qJh4LTXhNeTnHzw2qtJneGd9Hpd%2BFa2QQL1vd6q6goJzDcPsQgTqIPG%2FCHnqxJYW8cu%2BmAhmSXdgbTTbWYadMXjhTVzvtIC2YGiFQDmoj0ZG41pkYCMoaw%3D%3D");
     // background-position: bottom center;
-    background-position: center calc(100% + 50px);;
+    // background-position: center calc(100% +50px);
+    background-position: center center;
     // background-position: center;
     background-size: cover;
     // background-size: 100% auto;
     background-repeat: no-repeat;
-    height: 105vh;
+    // height: (105vh);
+    height: calc(100vh - 70px);
     display: flex;
     align-items: center;
     // justify-content: flex-end;
