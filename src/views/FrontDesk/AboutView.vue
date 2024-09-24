@@ -21,12 +21,8 @@
 <br/>
 加入詩翩舞集，讓我們一起舞動生命的美好，共同創造無限的可能。無論你是初學者還是有經驗的舞者，詩翩舞集都將是你實現舞蹈夢想的最佳夥伴。
         </p>
-      </div>
-    </section>
-    <section class="mt-6 ">
-      <div class="container">
         <ul class="row">
-          <li class="col-8 col-md-4">
+          <li class="col-md-4">
             <div class="image-container">
               <img src="https://images.unsplash.com/photo-1529038578964-1a563e9a15e5?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D" alt="" >
             </div>
@@ -35,7 +31,7 @@
               <p>舞台創意總監</p>
             </div>
           </li>
-          <li class="col-8 col-md-4">
+          <li class="col-md-4">
             <div class="image-container">
               <img src="https://images.unsplash.com/photo-1519688581790-17c0c4508294?w=800&505=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D" alt="" >
             </div>
@@ -44,7 +40,7 @@
               <p>民族舞＆瑜伽老師</p>
             </div>
           </li>
-          <li class="col-8 col-md-4">
+          <li class="col-md-4">
             <div class="image-container">
               <img src="https://images.unsplash.com/photo-1528415784548-1850e0fc8c57?w=800&505=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fGRhbmNlcnxlbnwwfHwwfHx8MA%3D%3D" alt="" >
             </div>
@@ -56,6 +52,7 @@
         </ul>
       </div>
     </section>
+
   </main>
 </template>
 
@@ -91,7 +88,7 @@ ul.row > li {
   padding: 0.5rem
 }
 
-.col-8.col-md-4 {
+.col-md-4 {
   padding: 0.5rem; /* 這個間距可以根據你的需要調整 */
 }
 .title-text {

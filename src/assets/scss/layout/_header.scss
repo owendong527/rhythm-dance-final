@@ -7,12 +7,14 @@
     background-image: none;
     display: flex;
     align-items: center;
-    // justify-content: flex-end;
+    justify-content: center;
+    
   }
 
   .custom-toggler.navbar-toggler {
-    color: $gray-700;
+    color: $white;
     font-size: 24px;
+    border: none;
   }
   .dropdown-toggle {
     &::after {
@@ -70,7 +72,6 @@
     }
   }
   @include max-991 {
-    background-color: $white;
     .navbar-nav {
       margin-top: 15px;
     }
@@ -82,13 +83,13 @@
       padding-right: 0px;
       padding-top: 10px;
       padding-bottom: 10px;
-      color: $gray-700;
+      color: $white;
       &:hover,
       &[aria-expanded="true"] {
         color: $sun;
       }
       &.router-link-exact-active {
-        color: $africa;
+        color: $white;
       }
     }
     .icon-link {
@@ -123,11 +124,11 @@
   border: none;
   font-size: 15px;
   box-shadow: 0 0 10px rgba($color: #000000, $alpha: 0.2);
-  @include max-991 {
-    &.dropdown-menu-right {
-      right: -50px;
-    }
-  }
+  // @include max-991 {
+  //   &.dropdown-menu-right {
+  //     right: -50px;
+  //   }
+  // }
 }
 .dropdown-cart-list {
   padding: 0 15px;

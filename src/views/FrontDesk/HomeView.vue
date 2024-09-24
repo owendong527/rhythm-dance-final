@@ -2,7 +2,8 @@
   <div class="front front-index">
     <section class="kv">
       <div class="txt-wrap">
-        <h2 data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="50">
+        <h2 data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="50"
+        class="fs-3 fs-md-2 fs-lg-1">
           遇見<span class="text-sun">自信</span>的你
         </h2>
         <p
@@ -25,10 +26,10 @@
         </div>
       </div>
     </section>
-    <section class="ex-container">
+    <section class="container">
       <div class="row m-5">
         <div>
-          <h2 class="explain text-center mb-0">為何要學習跳舞？</h2>
+          <h2 class="explain text-center heading-secondary">為何要學習跳舞？</h2>
         </div>
         <div class="col-12 col-md-4">
           <div class="ex-place">
@@ -95,11 +96,11 @@
       </div>
     </section>
 
-    <section>
+    <section >
       <div>
-        <h2 class="explain text-center" data-aos="fade-up">我們的追求</h2>
+        <h2 class="explain text-center heading-secondary" data-aos="fade-up">我們的追求</h2>
       </div>
-      <div class="container my-5">
+      <div class="container my-2 my-lg-4">
         <div class="media row" data-aos="fade-left">
           <div class="col-lg-6">
             <img
@@ -119,14 +120,7 @@
             </p>
           </div>
         </div>
-        <div class="media row my-4" data-aos="fade-right">
-          <div class="media-body col-lg-6 m-auto">
-            <h4 class="m-4 text-center">擁有自信讓每一步都充滿力量 ❤️</h4>
-            <p class="lead px-5">
-              跳舞不僅是一種運動，更是一種表達自我的方式。通過舞蹈，你可以提升身體的協調性和節奏感，逐步掌握新的技巧，增強自信心。
-              在每一次練習和表演中，你都能感受到自我進步，讓每一步都充滿力量和自信。加入我們的舞蹈課程，讓舞蹈幫助你釋放內在潛力，展現最自信的自己！ ✨
-            </p>
-          </div>
+        <div class="media row my-4 flex-lg-row-reverse" data-aos="fade-right">
           <div class="col-lg-6">
             <img
               src="https://storage.googleapis.com/vue-course-api.appspot.com/owen-hexschool/1720889029002.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=N20i1lozq%2F8YpS1lU4%2FwiAbyJqnwHjrovR4gLJrQ9dulJG4LE115DtcFR6YcQBR4vCxq5NLVN1XzzhzUh0%2FpySVZhi6excDRhJDnwbQ67mOJ9%2BM1qZ8cJbHGrnPONIsBKQr%2F5xml1GzAbG32Wx3UbZ7e1sTh98gGfjliRREi6f800%2BMLTzDF%2FhdtK6pUpShezkUZZWZ3XtlzFOpsbcsL6IHy4VczNeVJ0VhH2duYoQTbM%2BW%2FSODjCkqx0Kgkpv8sH3mXkH%2BEzgs4GsTxyrJO5NtCV71J%2Fp2LAdOHZW2nceUna1XP2YwtDfkszRyEKj6tdF4vPhejbPqWyqiF71Rbzw%3D%3D"
@@ -135,12 +129,19 @@
               style="object-fit: cover"
             />
           </div>
+          <div class="media-body col-lg-6 m-auto">
+            <h4 class="m-4 text-center">擁有自信讓每一步都充滿力量 ❤️</h4>
+            <p class="lead px-5">
+              跳舞不僅是一種運動，更是一種表達自我的方式。通過舞蹈，你可以提升身體的協調性和節奏感，逐步掌握新的技巧，增強自信心。
+              在每一次練習和表演中，你都能感受到自我進步，讓每一步都充滿力量和自信。加入我們的舞蹈課程，讓舞蹈幫助你釋放內在潛力，展現最自信的自己！ ✨
+            </p>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- article -->
-    <section class="container mt-8 mt-lg-6 px-7 p-xl-0" data-aos="fade-up">
+    <section class="container mt-lg-6 p-xl-0" data-aos="fade-up">
       <div class="row">
         <div class="col-xl-4">
           <div class="text-gray text-center">
@@ -339,7 +340,7 @@ export default {
   font-family: "Noto Serif TC", serif;
 }
 .dance-img {
-  width: 100%;
+  /* width: 100%; */
   /* max-width: 100%; */
   object-fit: contain;
 }
@@ -354,12 +355,23 @@ export default {
 
 .heading-secondary {
   color: #af948a;
-  padding: 1rem 0 3rem 0;
+  padding-bottom: 1rem;
   font-family: "Noto Serif TC", serif;
   font-size: 3rem;
   font-weight: 800;
   letter-spacing: 5px;
 }
+@media (max-width: 991px) {
+  .heading-secondary{
+    font-size: 2rem;
+  }
+}
+/* @media (max-width: 575px) {
+  .heading-secondary{
+    font-size: 1rem;
+    letter-spacing: 3px;
+  }
+} */
 
 .accordion-item {
   width: 100%;

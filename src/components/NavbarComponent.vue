@@ -1,6 +1,6 @@
 <template>
   <div class="front-nav">
-    <nav id="front-nav" class="navbar navbar-expand-lg navbar-light
+    <nav id="front-nav" class="navbar navbar-expand-lg navbar-bg
     fixed-top align-items-center" :class="{ shadows: false }">
         <!-- logo -->
         <!-- <img class="logo-img"
@@ -149,7 +149,6 @@
                 </span>
               </RouterLink> -->
       </div>
-
     </nav>
   </div>
 </template>
@@ -203,10 +202,15 @@ export default {
 };
 </script>
 <style scoped>
-.navbar {
+.navbar-bg {
   height: 70px;
   padding-left: 40px;
   background-color: #523e27;
+}
+@media (max-width: 991px) {
+  .navbar {
+    height: auto; /* 或者你可以直接使用 `height: unset;` */
+  }
 }
 /* .navbar-brand {
   width: 300px;
@@ -226,6 +230,13 @@ export default {
   left: -500%;
   width: 350px;
 }
+@media (max-width: 991px) {
+  .dropdown-menu {
+    width: auto;
+    left: -650%;
+  }
+}
+
 .btn-block {
     display: block;
     width: 100%;
