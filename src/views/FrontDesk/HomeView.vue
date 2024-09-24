@@ -31,13 +31,13 @@
         <div>
           <h2 class="explain text-center heading-secondary">為何要學習跳舞？</h2>
         </div>
-        <div class="col-12 col-md-4">
+        <div class="col-md-4">
           <div class="ex-place">
             <div class="b-img-w img-left">
               <img
                 class="dance-img"
                 src="https://d1di2lzuh97fh2.cloudfront.net/files/2y/2y3/700/2y3sw4.png?ph=72645eecc4"
-                width="580"
+                width="400"
                 height="150"
                 alt=""
               />
@@ -51,14 +51,14 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-4">
+        <div class="col-md-4">
           <div class="ex-place">
             <div class="b-img-w img-center">
               <img
                 class="dance-img"
                 src="https://d1di2lzuh97fh2.cloudfront.net/files/0g/0gg/700/0ggs35.png?ph=72645eecc4"
                 alt=""
-                width="580"
+                width="400"
                 height="150"
                 loading="lazy"
               />
@@ -71,14 +71,14 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-4">
+        <div class="col-md-4">
           <div class="ex-place">
             <div class="b-img-w img-right">
               <img
                 class="dance-img"
                 src="https://d1di2lzuh97fh2.cloudfront.net/files/1q/1q2/700/1q2olj.png?ph=72645eecc4"
                 alt=""
-                width="580"
+                width="400"
                 height="150"
                 loading="lazy"
               />
@@ -187,9 +187,10 @@
     </section>
 
     <!-- FAQ區 -->
-    <section class="FAQ d-flex justify-content-center mb-6">
-      <div class="FAQ_content mt-5 mt-lg-6 px-7 p-xl-0">
-        <h2 class="heading-secondary text-md-center">我們會讓你快速適應</h2>
+    <section class="FAQ container mb-6">
+      <div class="d-flex justify-content-center">
+      <div class="FAQ_content mt-5 mt-lg-6 px-3 p-xl-0">
+        <h2 class="heading-secondary text-center">我們會讓你快速適應</h2>
         <p class="FAQ_explain">
           歡迎加入詩翩舞集！為了讓新進學員能夠快速適應並愉快地融入我們的舞蹈課程，我們準備了一些有用的建議和資源：</p>
         <div class="accordion accordion-flush" id="accordionFlushExample">
@@ -269,6 +270,7 @@
             </div>
           </div>
         </div>
+      </div>
       </div>
     </section>
   </div>
